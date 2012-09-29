@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+#clock {
+    font-family: 'Book Antiqua', Arial;
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#controls {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgba(200, 200, 200, 0.9);
+}
+
+#controls div {
+    text-align: center;
+    padding: 10px;
+}
+
+x#speed {
+    vertical-align: bottom;
+}

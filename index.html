@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VClock</title>
+    <link href="vclock.css" rel="stylesheet">
+</head>
+<body>
+    <div id="clock"></div>
+    <div id="controls">
+        <div>
+            <input type="button" value="start" id="start" />
+            <input type="button" value="stop" id="stop" />
+            <br />
+            <label for="size">size</label>
+            <input type="number" step="20" min="80" max="400" value="80" id="size" />
+            <label for="speed">speed</label>
+            <input type="number" step="1" min="1" max="10" value="6" id="speed" />
+            <label for="frequency">frequency</label>
+            <input type="radio" name="frequency" value="1" checked="checked" id="f1s" /><label for="f1s">1s</label>
+            <input type="radio" name="frequency" value="10" id="f10s" /><label for="f10s">10s</label>
+            <input type="radio" name="frequency" value="60" id="f1m" /><label for="f1m">1m</label>
+            <input type="button" value="update" id="update" />
+            <input type="button" value="set time" id="set-time" />
+        </div>
+    </div>
+    <script type="text/javascript" src="vclock.js"></script>
+</body>
+</html>
