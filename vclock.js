@@ -10,9 +10,9 @@
 
     function initialize() {
         // Load persisted data
-        setSize(window.localStorage.getItem('size'));
-        setSpeed(window.localStorage.getItem('speed'));
-        setFrequency(window.localStorage.getItem('frequency'));
+        setSize(window.localStorage.getItem('size') || 200);
+        setSpeed(window.localStorage.getItem('speed') || 6);
+        setFrequency(window.localStorage.getItem('frequency') || 10);
 
         // Initialize clock
         clock = document.getElementById('clock');
